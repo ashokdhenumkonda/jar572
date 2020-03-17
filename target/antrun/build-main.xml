@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="D:\Maven\loan\target/loan.zip">
+    <zipfileset includes="lib/**" dir="D:\Maven\loan\target"/>
+    <zipfileset includes="loan.jar" dir="D:\Maven\loan\target"/>
+    <zipfileset includes="readme.txt" dir="D:\Maven\loan"/>
+  </zip>
+</target>
+</project>
